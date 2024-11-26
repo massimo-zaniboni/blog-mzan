@@ -1,6 +1,5 @@
 Title: How to maintain a private Guix fork
 Date: 2024-10-14
-Category: Guix
 tags: guix
 
 Scope:

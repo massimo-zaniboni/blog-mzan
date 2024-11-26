@@ -5,8 +5,11 @@ PATH = 'content'
 STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/Rome'
-
+DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 DEFAULT_LANG = 'en'
+
+USE_FOLDER_AS_CATEGORY = True
+DEFAULT_CATEGORY = 'misc'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -16,8 +19,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('dokmelody/bootstrapping', 'https://bootstrapping.dokmelody.org/'),
-         ('GitHub', 'https://github.com/massimo-zaniboni'),)
+LINKS = (# TODO ('dokmelody/bootstrapping', 'https://bootstrapping.dokmelody.org/'),
+         ('Blog source code', 'https://github.com/massimo-zaniboni/blog-mzan'),
+         ('GitHub', 'https://github.com/massimo-zaniboni'),
+         )
 
 # Social widget
 SOCIAL = (('@mzan@qoto.org', 'https://qoto.org/@mzan'),

@@ -1,6 +1,5 @@
 Title: Using StGit for contributing to Guix
 Date: 2024-11-08
-Category: Guix
 tags: guix
 
 [StGit (i.e. Stacked Git)](https://stacked-git.github.io) is a command-line application for mixing user-level patches with upstream changes of a repository. I use it for managing my [private Guix repository](https://blog.dokmelody.org/mzan/how-to-maintain-a-private-guix-fork).  

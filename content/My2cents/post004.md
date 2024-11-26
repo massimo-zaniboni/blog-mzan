@@ -1,6 +1,5 @@
 Title: Debating in chats
 Date: 2024-10-30
-Category: My2cents
 tags: social
 
 I'm very bad in chats: 

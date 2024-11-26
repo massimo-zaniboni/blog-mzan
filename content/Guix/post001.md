@@ -1,6 +1,5 @@
 Title: Bcachefs on Guix
 Date: 2024-11-10
-Category: Guix
 tags: guix, bcachefs
 
 At least until 2024-11-10, #Guix support for #bcachefs is not optimal. 

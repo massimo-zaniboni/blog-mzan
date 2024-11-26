@@ -1,6 +1,5 @@
 Title: Guix and Guile error messages 
 Date: 2024-10-28
-Category: Guix
 tags: guix
 
 Sometime #Guile and #Guix error messages are confusing. I will collect here some of them, as case study. Don't get me wrong: Guile is wonderful and it is OSS.
@@ -100,7 +99,7 @@ Probably this needs many improvements to the Guile source code.
 
 I rebooted the computer with the new settings. There were an error in the code, and the machine was blocked:
 
-![image]({attach}images/screenshot01.jpg)
+![image]({attach}/images/screenshot01.jpg)
 
 In this case I have only praises for Guix:
 

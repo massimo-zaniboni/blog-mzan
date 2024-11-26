@@ -1,6 +1,5 @@
 Title: The best window manager is...
 Date: 2024-10-16
-Category: My2cents
 tags: tools
 
 Right now I'm using [hyprscroller](https://github.com/dawsers/hyprscroller) that is a scrollable tiling of windows. Similar windows managers are [PaperWM](https://github.com/paperwm/PaperWM), [Karousel](https://github.com/peterfajdiga/karousel), [Niri](https://github.com/YaLTeR/niri), [papersway](https://spwhitton.name/tech/code/papersway/).

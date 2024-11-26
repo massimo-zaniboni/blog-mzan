@@ -1,6 +1,5 @@
 Title: The best keyboard is...
 Date: 2024-10-15
-Category: My2cents
 tags: tools
 
 The ideal #keyboard must have a programmable and open-source firmware like [QMK](https://en.wikipedia.org/wiki/QMK). These firmware support advanced features like: macros; distinction between short and long press of a key; additional modifier keys for changing the behavior of other keys; and so on...

@@ -1,6 +1,5 @@
 Title: Creating a Guix VM under QEMU
 Date: 2024-11-06
-Category: Guix
 tags: guix
 
 ## Requirements:

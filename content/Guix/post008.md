@@ -1,6 +1,5 @@
 Title: How to develop with Common Lisp in Guix
 Date: 2024-10-14
-Category: Guix
 tags: guix, common-lisp
 
 I create a #guix project in a directory like `/home/mzan/fun-projects/snow`.
