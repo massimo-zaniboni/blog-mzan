@@ -12,11 +12,6 @@ Up to date in Guix there is no `hugo` packages, so `just build-image` will build
 
 - The main params of website are in `hugo.toml`.
 - The copyright info is in `layout/partials/site-footer.html`.
+- Footer section in `data/menu/extra.yaml`
 - The CSS settings in `static/custom.css`.
 - Custom fonts are imported in `layouts/partials/head/custom.html`.
-
-
-
-
-
-

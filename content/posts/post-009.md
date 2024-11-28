@@ -4,7 +4,7 @@ date: 2024-11-10
 tags: [guix, bcachefs]
 ---
 
-At least until 2024-11-10, #Guix support for #bcachefs is not optimal. 
+At least until 2024-11-10, Guix support for bcachefs is not optimal. 
 
 I [patched](https://issues.guix.gnu.org/74273) Guix for supporting multi-device specifications.
 

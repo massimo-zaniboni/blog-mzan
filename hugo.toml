@@ -1,6 +1,6 @@
 baseURL = 'https://mzan.dokmelody.org/'
 languageCode = 'en-us'
-title = "blog/mzan"
+title = "MZan's learning journal"
 theme = "hugo-geekblog"
 
 pluralizeListTitles = false

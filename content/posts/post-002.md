@@ -4,7 +4,7 @@ date: 2024-10-14
 tags: [guix, common-lisp]
 ---
 
-I create a #guix project in a directory like `/home/mzan/fun-projects/snow`.
+I create a Guix project in a directory like `/home/mzan/fun-projects/snow`.
 
 This is the `guix.scm` file
 
@@ -60,11 +60,11 @@ This is the `guix.scm` file
     (license license:lgpl3+))
 ```
 
-Note that all used #commonlisp packages are defined in the project, and that the `sbcl-sdl2` package will take care to install also the external (i.e. C) library. `sbcl-...` packages are needed only for development inside Emacs.
+Note that all used Common Lisp packages are defined in the project, and that the `sbcl-sdl2` package will take care to install also the external (i.e. C) library. `sbcl-...` packages are needed only for development inside Emacs.
 
 This is the `.envrc` file to use for [direnv](https://direnv.net/).
 
-```
+```sh
 eval $(guix shell --search-paths)
 export GUILE_LOAD_PATH="$PWD:$GUILE_LOAD_PATH"
 ```
@@ -72,7 +72,7 @@ It will be enable with `direnv allow` in the shell, or with `envrc-allow` in Ema
 
 In case of changes in the `guix.scm` file, it can be reloaded with `direnv reload` in the shell, or `envrc-reload` in Emacs.
 
-This is the #commonlisp #asdf project file `snow-assembler.asd`
+This is the Common Lisp ASDF project file `snow-assembler.asd`
 
 ```lisp
 (asdf:defsystem "snow-assembler"
@@ -99,7 +99,7 @@ This is the #commonlisp #asdf project file `snow-assembler.asd`
 
 In this file, I'm reusing the packages I defined in `guix.scm`.
 
-In `~/.sbclrc` I instruct #asdf that there is a system (i.e. a #commonlisp project) in the directory of the project. I'm using something like this
+In `~/.sbclrc` I instruct ASDF that there is a system (i.e. a Common Lisp project) in the directory of the project. I'm using something like this
 
 ```lisp
 (require :asdf)
@@ -112,15 +112,15 @@ In `~/.sbclrc` I instruct #asdf that there is a system (i.e. a #commonlisp proje
      :inherit-configuration))
 ```
 
-I launch Emacs. I open the `snow-assembler.asd` file. I make sure that the #guix environment is loaded executing the Emacs function `envrc-reload`. 
+I launch Emacs. I open the `snow-assembler.asd` file. I make sure that the Guix environment is loaded executing the Emacs function `envrc-reload`. 
 
 I start a connection to `sbcl` using `sly`. 
 
-I open the #sbcl #commonlisp REPL, and I load the system with `(asdf:load-system "snow-assembler")`.
+I open the SBCL Common Lisp REPL, and I load the system with `(asdf:load-system "snow-assembler")`.
 
-Now, I'm ready to code in #commonlisp, using #emacs and #sly.
+Now, I'm ready to code in Common Lisp, using Emacs and Sly.
 
-# HashTags
+## HashTags
 
 - #LearnedTask.
 - #guix

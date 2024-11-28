@@ -4,7 +4,7 @@ date: 2024-10-28
 tags: [guix]
 ---
 
-Sometime #Guile and #Guix error messages are confusing. I will collect here some of them, as case study. Don't get me wrong: Guile is wonderful and it is OSS.
+Sometime Guile and Guix error messages are confusing. I will collect here some of them, as case study. Don't get me wrong: Guile is wonderful and it is OSS.
 
 ## Guile limitations
 

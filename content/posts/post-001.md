@@ -4,20 +4,22 @@ date: 2024-10-14
 tags: [guix]
 ---
 
-Scope:
+## Rationale
 
-- customize default #guix channel;
-- use it in the working environment/system (i.e. "eating your own dog food");
-- send patches to #guix upstream;
-- wait patches are merged;
+The usual way for customizing Guix is creating a custom channel. 
+
+I choose to fork Guix default channel, in a private branch for these reasons:
+
+- it is easier to customize system level settings like mounting of bcachefs and symilar things, and use them directly in my working environment  (i.e. "eating your own dog food");
+- I can send patches directly to Guix upstream, while in a channel I need to transform them;
 
 ## Preparation
 
-I installed #guix from source code, as described [here](https://guix.gnu.org/manual/devel/en/html_node/Contributing.html).
+I installed Guix from source code, as described [here](https://guix.gnu.org/manual/devel/en/html_node/Contributing.html).
 
 I'm using [Stacked-Git](https://stacked-git.github.io/) for managing patches. 
 
-When I need to extend #guix, I search first in the [contributor page](https://issues.guix.gnu.org/) if there is some open pull request to use as starting point. There can be also Guix channels in external repositories.
+When I need to extend Guix, I search first in the [contributor page](https://issues.guix.gnu.org/) if there is some open pull request to use as starting point. There can be also Guix channels in external repositories.
 
 I create a patch, using Stacked-Git.
 
