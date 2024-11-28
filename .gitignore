@@ -1,4 +1,3 @@
-*.log
-tmp/
-output/
-__pycache__/
+/public/
+.hugo_build.lock
+

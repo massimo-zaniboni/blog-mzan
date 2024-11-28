@@ -1,0 +1,57 @@
+
+body {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.0em;
+}
+
+gblog-nav__entry {
+  font-family: var(--header-font-family);
+}
+
+:root,
+:root[color-theme=light] {
+  --header-background: rgb(32, 83, 117);
+  --header-font-color: rgb(255, 255, 255);
+  --body-background: white;
+  --body-font-color: rgb(0, 0, 0);
+  --mark-color: rgb(255, 171, 0);
+  --button-background: rgb(43.6295302013, 113.1640939597, 159.5204697987);
+  --button-border-color: rgb(32, 83, 117);
+  --link-color: rgb(10, 83, 154);
+  --link-color-visited: rgb(119, 73, 191);
+  --hint-link-color: rgb(10, 83, 154);
+  --hint-link-color-visited: rgb(119, 73, 191);
+  --accent-color-dark: rgb(206, 212, 218);
+  --accent-color: rgb(233, 236, 239);
+  --accent-color-lite: rgb(248, 249, 250);
+  --control-icons: rgb(124.5724137931, 136.8, 149.0275862069);
+  --footer-background: rgb(17, 43, 60);
+  --footer-font-color: rgb(255, 255, 255);
+  --footer-link-color: rgb(246, 107, 14);
+  --footer-link-color-visited: rgb(246, 107, 14)
+}
+
+:root[color-theme=dark] {
+  --header-background: rgb(32, 83, 117);
+  --header-font-color: rgb(255, 255, 255);
+  --body-background: rgb(40.375, 53.375, 61.875);
+  --body-font-color: rgb(230, 230, 230);
+  --mark-color: rgb(255, 171, 0);
+  --button-background: rgb(43.6295302013, 113.1640939597, 159.5204697987);
+  --button-border-color: rgb(32, 83, 117);
+  --link-color: rgb(110, 168, 212);
+  --link-color-visited: rgb(186, 142, 240);
+  --hint-link-color: rgb(10, 83, 154);
+  --hint-link-color-visited: rgb(119, 73, 191);
+  --accent-color-dark: rgb(16.15, 21.35, 24.75);
+  --accent-color: rgb(28.2625, 37.3625, 43.3125);
+  --accent-color-lite: rgb(34.31875, 45.36875, 52.59375);
+  --control-icons: rgb(124.5724137931, 136.8, 149.0275862069);
+  --footer-background: rgb(17, 43, 60);
+  --footer-font-color: rgb(255, 255, 255);
+  --footer-link-color: rgb(246, 107, 14);
+  --footer-link-color-visited: rgb(246, 107, 14)
+}

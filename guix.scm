@@ -15,10 +15,7 @@
   (gnu packages autotools)
   (gnu packages base)
   (gnu packages commencement)
-  (gnu packages python)
-  (gnu packages php)
-  (gnu packages plan9)
-  (gnu packages python-xyz)
+  (gnu packages docker)
   (gnu packages rsync)
   (gnu packages sync)
   (gnu packages rust-apps))
@@ -32,9 +29,7 @@
     (build-system copy-build-system)
     (inputs
      (list
-        pelican
-        python
-        python-pygments
+        docker-cli
 
         rsync
         rclone

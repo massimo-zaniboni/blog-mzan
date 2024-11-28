@@ -1,0 +1,18 @@
+---
+footer:
+  - name: GitHub
+    icon: gblog_github
+    ref: "https://github.com/massimo-zaniboni"
+    external: true
+  - name: Blog source code
+    icon: gblog_link
+    ref: "https://github.com/massimo-zaniboni/blog-mzan"
+    external: true
+  - name: "@mzan@qoto.org"
+    icon: gblog_mastodon
+    ref: "https://qoto.org/@mzan"
+    external: true
+  - name: "mzan@dokmelody.org"
+    icon: gblog_email
+    ref: "mailto: mzan@dokmelody.org"
+    external: true
