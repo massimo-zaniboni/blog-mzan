@@ -6,9 +6,9 @@ tags: [guix]
 
 ## Scenario
 
-I need a service like *Writefreely*, which is lacking a Guix package definition. I have no time or skill to port it to Guix.
+I need a service like [Writefreely](https://writefreely.org/), which is lacking a Guix package definition. I have no time or skill to port it to Guix.
 
-As temporarly workaround, I can use Docker:  install *Writefreely* inside a Docker container; declare it using a normal (i.e. declarative) Guix system definition; export it to the web, using the *Nginx* proxy-service on the Guix host.
+As temporary workaround, I can use Docker:  install Writefreely inside a Docker container; declare it using a normal (i.e. declarative) Guix system definition; export it to the web, using the Nginx proxy-service on the Guix host.
 
 Doing so: I can reuse services defined in Docker but not yet in Guix; I have a good-enough declarative specification of the host.
 
@@ -131,9 +131,9 @@ I install it using
 guix system reconfigure host.scm
 ```
 
-Only after this, we have defined the `docker` user. TODO probably this is a bug of Guix. 
+Only after this, the `docker` user is defined. TODO probably this is a bug of Guix. 
 
-We will add the `docker` user, in this way:
+I add the `docker` user, in this way:
 
 ```scheme
     (users (cons*
@@ -231,7 +231,7 @@ fi
 cd /writefreely && ./writefreely -c /writefreely-data/config.ini
 ```
 
-I put into `initial-data` also the `keys` and the `writefreely.db` of a previous instance. So, only during the first installation, it will start-s with the old data.
+I put into `initial-data` also the `keys` and the `writefreely.db` of a previous instance. So, only during the first installation, it will starts with the old data.
 
 I initialize the image with 
 
@@ -263,7 +263,7 @@ I add this to `host.scm`
 NOTE:
 
 - the service is visible on port 8060;
-- the service will write on the `/var/lib/opt/writefreely-data` directory of the  *target-host*;
+- the service will write on the `/var/lib/opt/writefreely-data` directory of the host;
 
 I connect now the `8060` port to Nginx:
 
@@ -321,15 +321,13 @@ I connect now the `8060` port to Nginx:
 guix system reconfigure host.scm
 ```
 
-Up to date, it is necessary to restart Nginx explicitely, for recognizing the new settings
+Up to date, it is necessary to restart Nginx explicitly, for recognizing the new settings
 
 ```
 sudo herd restart nginx
 sudo renew-certbot-certificates
 sudo herd restart nginx
 ```
-
-TODO up to date, first the certificate must be created, then Nginx restarted. So the real commands are differents. I will document them in anothe post...
 
 ## Possible improvements 
 
